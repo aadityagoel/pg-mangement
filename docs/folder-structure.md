@@ -1,0 +1,42 @@
+# Proposed Folder Structure
+
+```txt
+backend/
+  src/
+    app.js
+    server.js
+    routes.js
+    config/
+      env.js
+      db.js
+    middleware/
+      auth.js
+      rbac.js
+      rateLimit.js
+    modules/
+      auth/
+      users/
+      properties/
+      tenants/
+      rent/
+      payments/
+      complaints/
+      staff/
+      reports/
+      notifications/
+frontend/
+  src/
+    app/
+    components/
+    features/
+      auth/
+      dashboard/
+      properties/
+      tenants/
+      payments/
+      complaints/
+      staff/
+    services/
+    hooks/
+    styles/
+```
